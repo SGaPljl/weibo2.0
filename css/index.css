@@ -1,0 +1,583 @@
+main {
+  width: 100%;
+}
+main #body {
+  width: 1170px;
+  height: 2460px;
+  margin: 0 auto;
+  margin-top: 48px;
+  padding-top: 16px;
+}
+main #body .body-left {
+  width: 110px;
+  height: 473px;
+  position: fixed;
+  top: 60px;
+}
+main #body .body-left .left-nav {
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+  width: 94px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0 8px;
+  margin-bottom: 3px;
+  border-radius: 5px;
+  color: black;
+  background: #fff;
+}
+main #body .body-left .current,
+main #body .body-left .left-nav:hover {
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+  width: 94px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0 8px;
+  margin-bottom: 3px;
+  border-radius: 5px;
+  color: #fff;
+  background: #FF8140;
+}
+main #body .body-center {
+  width: 1030px;
+  height: 1096px;
+  float: right;
+}
+main #body .body-center .b-c-center {
+  width: 660px;
+  height: 1896px;
+  float: left;
+  margin-right: 30px;
+}
+main #body .body-center .b-c-center .center-lun {
+  width: 660px;
+  height: 300px;
+  float: left;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+}
+main #body .body-center .b-c-center .center-lun .lun_body {
+  width: 2640px;
+  height: 300px;
+}
+main #body .body-center .b-c-center .center-lun .lun_body .lun-1 {
+  width: 660px;
+  height: 300px;
+  float: left;
+}
+main #body .body-center .b-c-center .center-lun .lun_body .lun-1 .lun-1-body {
+  width: 512px;
+  height: 220px;
+  /* position: absolute; */
+  float: left;
+}
+main #body .body-center .b-c-center .center-lun .lun_body .lun-1 .lun-1-body img {
+  width: 512px;
+  height: 220px;
+}
+main #body .body-center .b-c-center .center-lun .lun_body .lun-1 .lun-1-body .lun-1-ping {
+  width: 492px;
+  height: 44px;
+  padding: 10px 10px 6px 10px;
+  margin-top: 5px;
+  background-color: rgba(255, 255, 255, 0.9);
+  background-image: linear-gradient(#fff, #1F1F1F);
+}
+main #body .body-center .b-c-center .center-lun .lun_body .lun-1 .lun-1-down,
+main #body .body-center .b-c-center .center-lun .lun_body .lun-1 .lun-1-up {
+  width: 140px;
+  height: 140px;
+  float: left;
+}
+main #body .body-center .b-c-center .center-lun .lun_body .lun-1 .lun-1-down img,
+main #body .body-center .b-c-center .center-lun .lun_body .lun-1 .lun-1-up img {
+  width: 140px;
+  height: 140px;
+  margin-left: 8px;
+  float: left;
+}
+main #body .body-center .b-c-center .center-lun .lun_body .lun-1 .lun-1-down .lun-up-ping,
+main #body .body-center .b-c-center .center-lun .lun_body .lun-1 .lun-1-up .lun-up-ping {
+  width: 140px;
+  height: 40px;
+  float: left;
+  margin-left: 8px;
+  /* padding-left: 20px; */
+  margin-top: -40px;
+  /* background-image: linear-gradient(#fff, #ccc); */
+  background-color: rgba(138, 134, 134, 0.5);
+}
+main #body .body-center .b-c-center .center-lun .lun_body .lun-1 .lun-1-down .lun-up-ping span,
+main #body .body-center .b-c-center .center-lun .lun_body .lun-1 .lun-1-up .lun-up-ping span {
+  color: #fff;
+}
+main #body .body-center .b-c-center .center-lun .lun_body .number {
+  width: 100px;
+  height: 12px;
+  position: absolute;
+  bottom: 3px;
+  left: 280px;
+}
+main #body .body-center .b-c-center .center-lun .lun_body .number ul {
+  margin: 0;
+}
+main #body .body-center .b-c-center .center-lun .lun_body .number ul .num {
+  font-size: 0;
+  width: 6px;
+  height: 6px;
+  float: left;
+  margin: 5px;
+  border-radius: 50%;
+  background: #ccc;
+}
+main #body .body-center .b-c-center .center-lun .lun_body .number ul .number-li {
+  font-size: 0;
+  width: 6px;
+  height: 6px;
+  float: left;
+  margin: 5px;
+  border-radius: 50%;
+  background: #f77c3d;
+}
+main #body .body-center .b-c-center .b-c-tip {
+  width: 660px;
+  height: 36px;
+  line-height: 36px;
+  margin-bottom: 20px;
+  float: left;
+  background: #FFFDEC;
+}
+main #body .body-center .b-c-center .b-c-tip a {
+  margin-left: 214px;
+}
+main #body .body-center .b-c-center .b-c-tip .iconfont.icon-cuowu {
+  float: right;
+  color: #eb7350;
+  margin-right: 10px;
+}
+main #body .body-center .b-c-center .my-boke,
+main #body .body-center .b-c-center .b-c-jimu {
+  width: 660px;
+  height: 102px;
+  float: left;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #e5e5e5;
+  background: #fff;
+}
+main #body .body-center .b-c-center .my-boke .jimu-img,
+main #body .body-center .b-c-center .b-c-jimu .jimu-img {
+  width: 158px;
+  height: 102px;
+  overflow: hidden;
+  float: left;
+  margin-right: 13px;
+  border: 1px solid #e5e5e5;
+}
+main #body .body-center .b-c-center .my-boke .jimu-img img,
+main #body .body-center .b-c-center .b-c-jimu .jimu-img img {
+  width: 158px;
+  height: 158px;
+  margin-top: -23px;
+}
+main #body .body-center .b-c-center .my-boke .jimu-list,
+main #body .body-center .b-c-center .b-c-jimu .jimu-list {
+  width: 480px;
+  height: 82px;
+  margin: 0 auto;
+  margin-top: 20px;
+  float: left;
+  font-size: 14px;
+}
+main #body .body-center .b-c-center .my-boke .jimu-list .j-list-1 a,
+main #body .body-center .b-c-center .b-c-jimu .jimu-list .j-list-1 a {
+  color: #F77C3D;
+}
+main #body .body-center .b-c-center .my-boke .jimu-list .j-list-2,
+main #body .body-center .b-c-center .b-c-jimu .jimu-list .j-list-2 {
+  width: 496px;
+  height: 20px;
+  margin-top: 20px;
+}
+main #body .body-center .b-c-center .my-boke .jimu-list .j-list-2 img,
+main #body .body-center .b-c-center .b-c-jimu .jimu-list .j-list-2 img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+main #body .body-center .b-c-center .my-boke .jimu-list .j-list-2 a,
+main #body .body-center .b-c-center .b-c-jimu .jimu-list .j-list-2 a {
+  font-size: 12px;
+}
+main #body .body-center .b-c-center .my-boke .jimu-list .j-list-2 span,
+main #body .body-center .b-c-center .b-c-jimu .jimu-list .j-list-2 span {
+  float: right;
+  font-size: 10px;
+  padding: 0 8px;
+}
+main #body .body-center .b-c-center .my-boke .jimu-list .j-list-2 :nth-child(4),
+main #body .body-center .b-c-center .b-c-jimu .jimu-list .j-list-2 :nth-child(4),
+main #body .body-center .b-c-center .my-boke .jimu-list .j-list-2 :nth-child(5),
+main #body .body-center .b-c-center .b-c-jimu .jimu-list .j-list-2 :nth-child(5) {
+  border-left: 1px solid #ccc;
+}
+main #body .body-center .login_1,
+main #body .body-center .login_2,
+main #body .body-center .login_3,
+main #body .body-center .login_4 {
+  width: 340px;
+  height: 326px;
+  float: left;
+  background: #F2F2F5;
+}
+main #body .body-center .login_1 .login,
+main #body .body-center .login_2 .login,
+main #body .body-center .login_3 .login,
+main #body .body-center .login_4 .login {
+  width: 340px;
+  height: 326px;
+  float: left;
+  background: #F2F2F5;
+}
+main #body .body-center .login_1 .login .login-center,
+main #body .body-center .login_2 .login .login-center,
+main #body .body-center .login_3 .login .login-center,
+main #body .body-center .login_4 .login .login-center {
+  width: 300px;
+  height: 286px;
+  margin: 20px;
+  float: left;
+  background: #fff;
+}
+main #body .body-center .login_1 .login .login-center .login-header,
+main #body .body-center .login_2 .login .login-center .login-header,
+main #body .body-center .login_3 .login .login-center .login-header,
+main #body .body-center .login_4 .login .login-center .login-header {
+  width: 270px;
+  height: 44px;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+main #body .body-center .login_1 .login .login-center .login-header .login-account,
+main #body .body-center .login_2 .login .login-center .login-header .login-account,
+main #body .body-center .login_3 .login .login-center .login-header .login-account,
+main #body .body-center .login_4 .login .login-center .login-header .login-account {
+  width: 135px;
+  height: 33px;
+  float: left;
+  border-bottom: 3px solid #FF8140;
+}
+main #body .body-center .login_1 .login .login-center .login-header .login-account a,
+main #body .body-center .login_2 .login .login-center .login-header .login-account a,
+main #body .body-center .login_3 .login .login-center .login-header .login-account a,
+main #body .body-center .login_4 .login .login-center .login-header .login-account a {
+  margin-left: 40px;
+  line-height: 40px;
+  font-size: 14px;
+}
+main #body .body-center .login_1 .login .login-center .login-header .login-safe,
+main #body .body-center .login_2 .login .login-center .login-header .login-safe,
+main #body .body-center .login_3 .login .login-center .login-header .login-safe,
+main #body .body-center .login_4 .login .login-center .login-header .login-safe {
+  width: 135px;
+  height: 33px;
+  float: left;
+  border-bottom: 3px solid #fff;
+}
+main #body .body-center .login_1 .login .login-center .login-header .login-safe a,
+main #body .body-center .login_2 .login .login-center .login-header .login-safe a,
+main #body .body-center .login_3 .login .login-center .login-header .login-safe a,
+main #body .body-center .login_4 .login .login-center .login-header .login-safe a {
+  margin-left: 40px;
+  line-height: 40px;
+  font-size: 14px;
+}
+main #body .body-center .login_1 .login .login-center .login-header .header-btn,
+main #body .body-center .login_2 .login .login-center .login-header .header-btn,
+main #body .body-center .login_3 .login .login-center .login-header .header-btn,
+main #body .body-center .login_4 .login .login-center .login-header .header-btn {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  right: -15px;
+  background-image: url(../images/login.png);
+  background-repeat: no-repeat;
+  background-position: 0px -150px;
+  vertical-align: text-top;
+}
+main #body .body-center .login_1 .login .login-center .login-1-phone,
+main #body .body-center .login_2 .login .login-center .login-1-phone,
+main #body .body-center .login_3 .login .login-center .login-1-phone,
+main #body .body-center .login_4 .login .login-center .login-1-phone {
+  width: 270px;
+  height: 34px;
+  margin: 12px 0 0 17px;
+  border: 1px solid #ccc;
+}
+main #body .body-center .login_1 .login .login-center .login-1-phone input,
+main #body .body-center .login_2 .login .login-center .login-1-phone input,
+main #body .body-center .login_3 .login .login-center .login-1-phone input,
+main #body .body-center .login_4 .login .login-center .login-1-phone input {
+  line-height: 31px;
+}
+main #body .body-center .login_1 .login .login-center .get,
+main #body .body-center .login_2 .login .login-center .get,
+main #body .body-center .login_3 .login .login-center .get,
+main #body .body-center .login_4 .login .login-center .get {
+  width: 270px;
+  height: 34px;
+  margin-left: 17px;
+  margin-top: 12px;
+}
+main #body .body-center .login_1 .login .login-center .get .get-btn,
+main #body .body-center .login_2 .login .login-center .get .get-btn,
+main #body .body-center .login_3 .login .login-center .get .get-btn,
+main #body .body-center .login_4 .login .login-center .get .get-btn {
+  width: 138px;
+  height: 32px;
+  /* padding: 0 10px; */
+  font-size: 12px;
+  float: left;
+  /* margin: 10px 0 0 17px; */
+  background: #F2F2F5;
+  border: 1px solid #e5e5e5;
+}
+main #body .body-center .login_1 .login .login-center .get .get-input,
+main #body .body-center .login_2 .login .login-center .get .get-input,
+main #body .body-center .login_3 .login .login-center .get .get-input,
+main #body .body-center .login_4 .login .login-center .get .get-input {
+  width: 120px;
+  height: 30px;
+  float: left;
+  font-size: 12px;
+  margin-left: 10px;
+  border: 1px solid #e5e5e5;
+}
+main #body .body-center .login_1 .login .login-center .get .get-input input,
+main #body .body-center .login_2 .login .login-center .get .get-input input,
+main #body .body-center .login_3 .login .login-center .get .get-input input,
+main #body .body-center .login_4 .login .login-center .get .get-input input {
+  width: 100px;
+  height: 28px;
+  margin-left: 5px;
+}
+main #body .body-center .login_1 .login .login-center .forget,
+main #body .body-center .login_2 .login .login-center .forget,
+main #body .body-center .login_3 .login .login-center .forget,
+main #body .body-center .login_4 .login .login-center .forget {
+  width: 270px;
+  height: 15px;
+  margin: 12px 0 0 17px;
+}
+main #body .body-center .login_1 .login .login-center .forget a,
+main #body .body-center .login_2 .login .login-center .forget a,
+main #body .body-center .login_3 .login .login-center .forget a,
+main #body .body-center .login_4 .login .login-center .forget a {
+  color: #999;
+  float: right;
+}
+main #body .body-center .login_1 .login .login-center .login-btn,
+main #body .body-center .login_2 .login .login-center .login-btn,
+main #body .body-center .login_3 .login .login-center .login-btn,
+main #body .body-center .login_4 .login .login-center .login-btn {
+  width: 268px;
+  height: 32px;
+  margin: 12px 0 0 17px;
+  border-radius: 5px;
+  background: #f77c3d;
+  border: 1px solid #f77c3d;
+}
+main #body .body-center .login_1 .login .login-center .login-btn .l-btn,
+main #body .body-center .login_2 .login .login-center .login-btn .l-btn,
+main #body .body-center .login_3 .login .login-center .login-btn .l-btn,
+main #body .body-center .login_4 .login .login-center .login-btn .l-btn {
+  width: 268px;
+  height: 32px;
+  margin: 0;
+  border-radius: 5px;
+  color: #fff;
+  background: #f77c3d;
+}
+main #body .body-center .login_1 .login .login-center p,
+main #body .body-center .login_2 .login .login-center p,
+main #body .body-center .login_3 .login .login-center p,
+main #body .body-center .login_4 .login .login-center p {
+  width: 270px;
+  height: 15px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+  margin: 12px 0 0 17px;
+}
+main #body .body-center .login_1 .login .login-center p a,
+main #body .body-center .login_2 .login .login-center p a,
+main #body .body-center .login_3 .login .login-center p a,
+main #body .body-center .login_4 .login .login-center p a {
+  font-size: 14px;
+  color: #f77c3d;
+}
+main #body .body-center .login_1 .login .login-center .login-code,
+main #body .body-center .login_2 .login .login-center .login-code,
+main #body .body-center .login_3 .login .login-center .login-code,
+main #body .body-center .login_4 .login .login-center .login-code {
+  width: 172px;
+  height: 174px;
+  margin: 0 auto;
+  border: 1px solid #f3f3f3;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding-top: 14px;
+}
+main #body .body-center .login_1 .login .login-center .login-code img,
+main #body .body-center .login_2 .login .login-center .login-code img,
+main #body .body-center .login_3 .login .login-center .login-code img,
+main #body .body-center .login_4 .login .login-center .login-code img {
+  width: 150px;
+  height: 150px;
+}
+main #body .body-center .login_1 .login .login-center .login-code i,
+main #body .body-center .login_2 .login .login-center .login-code i,
+main #body .body-center .login_3 .login .login-center .login-code i,
+main #body .body-center .login_4 .login .login-center .login-code i {
+  display: inline-block;
+  font-size: 12px;
+}
+main #body .body-center .login_1 .login .login-center .login-footer,
+main #body .body-center .login_2 .login .login-center .login-footer,
+main #body .body-center .login_3 .login .login-center .login-footer,
+main #body .body-center .login_4 .login .login-center .login-footer {
+  width: 172px;
+  height: 15.5px;
+  margin-left: 82px;
+  margin-top: 5px;
+}
+main #body .body-center .login_1 .login .login-center .login-footer span,
+main #body .body-center .login_2 .login .login-center .login-footer span,
+main #body .body-center .login_3 .login .login-center .login-footer span,
+main #body .body-center .login_4 .login .login-center .login-footer span,
+main #body .body-center .login_1 .login .login-center .login-footer a,
+main #body .body-center .login_2 .login .login-center .login-footer a,
+main #body .body-center .login_3 .login .login-center .login-footer a,
+main #body .body-center .login_4 .login .login-center .login-footer a {
+  font-size: 12px;
+}
+main #body .body-center .login_1 .login .login-center .login-footer a,
+main #body .body-center .login_2 .login .login-center .login-footer a,
+main #body .body-center .login_3 .login .login-center .login-footer a,
+main #body .body-center .login_4 .login .login-center .login-footer a {
+  color: #F77C3D;
+}
+main #body .body-center .login_1 {
+  display: block;
+}
+main #body .body-center .login_2 {
+  display: none;
+}
+main #body .body-center .login_3 {
+  display: none;
+}
+main #body .body-center .login_4 {
+  display: none;
+}
+main #body .body-center .login_4 .login {
+  background: #fff;
+  border: 1px solid #ccc;
+}
+main #body .body-center .login_4 .login .l4-img {
+  width: 253px;
+  height: 253px;
+  margin: 0 auto;
+}
+main #body .body-center .login_4 .login .l4-img img {
+  border-radius: 50%;
+}
+main #body .body-center .login_4 .login .l4-name {
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 10px;
+  line-height: 50px;
+}
+main #body .body-center .login_4 .login .l4-name span {
+  font-size: 20px;
+  margin-left: 110px;
+}
+main #body .body-center .hot {
+  width: 340px;
+  height: 990px;
+  margin-top: 20px;
+  float: left;
+  border-top: 1px solid #f77c3d;
+}
+main #body .body-center .hot .hot-1 {
+  width: 300px;
+  height: 403.4px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #f2f2f5;
+}
+main #body .body-center .hot .hot-1 .hot-center {
+  width: 300px;
+  height: 345px;
+  margin-top: 16px;
+  border-bottom: 1px solid #ccc;
+}
+main #body .body-center .hot .hot-1 .hot-center .h-c-cent {
+  width: 300px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+main #body .body-center .hot .hot-1 .hot-center .h-c-cent .hot-image img {
+  width: 48px;
+  height: 48px;
+  margin-right: 12px;
+  float: left;
+}
+main #body .body-center .hot .hot-1 .hot-center .h-c-cent .hot-ping {
+  font-size: 12px;
+  margin-top: 5px;
+  color: #868585;
+}
+main #body .body-center .hot .hot-1 .hot-more {
+  width: 340px;
+  height: 33px;
+  margin: 0 auto;
+}
+main #body .body-center .hot .hot-1 .hot-more a {
+  width: 340px;
+  height: 33px;
+  line-height: 33px;
+  margin-left: 120px;
+}
+main #body .body-center .hot .hot-ser {
+  width: 340px;
+  height: 57px;
+  line-height: 57px;
+  background: #f2f2f5;
+}
+main #body .body-center .hot .hot-ser a {
+  font-size: 12px;
+  margin-left: 20px;
+}
+main #body .back {
+  width: 40px;
+  height: 35px;
+  padding-top: 5px;
+  background: #ccc;
+  visibility: visible;
+  position: fixed;
+  bottom: 90px;
+  top: auto;
+  margin-left: 1220px;
+  display: none;
+  /* transform: translateZ(0px); */
+}
+main #body .back .iconfont.icon-zhiding {
+  color: #fff;
+  font-size: 25px;
+  margin-left: 7.5px;
+}

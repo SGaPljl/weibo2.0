@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>留言</title>
+    <style>
+        @font-face{
+            font-family: fang;
+            src: url(./fang.TTF);
+        }
+    </style>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/message.css">
+</head>
+<body>
+    <div id="header">            
+        <div class="header">
+            <div class="header-shouye">
+                <h2>博客首页</h2>
+            </div>
+            <div class="header-nav">
+                <span><a href="my.html">首页</a></span>
+                <span><a href="index.html">新浪</a></span>
+                <span><a href="#">留言</a></span>
+                
+            </div>
+        </div>
+    </div>
+    <div id="input">
+        <div class="input">
+            <div class="input-header">
+                <h1>留言板</h1>
+                <h3>沟通交流，拉近你我</h3>
+            </div>
+            <div class="input-in">
+                <div class="input-name">
+                    <i>昵称:</i>
+                    <input type="text" id="name">
+                </div>
+                <div class="input-text">
+                    <textarea name="" id="text" cols="30" rows="10"></textarea>
+                </div>
+                <button class="submit">提交留言</button>
+            </div>
+        </div>
+        <div class="out">
+            <!-- <div class="out-body">
+                <div class="name">
+                    孙甜甜
+                </div>
+                <div class="text">
+                    热烈祝贺2020东京奥运会圆满结束
+                </div>
+                <div class="time">
+                    2021/8/22 下午5:32:58
+                    <span class="out-reply">回复</span>
+                    <button class="del">删除</button>
+                </div>
+                <div class="reply">
+                    <span>回复孙甜甜：</span>
+                    <textarea name="" id="reply" cols="30" rows="10"></textarea>
+                    <button class="reply-btn">提交</button>
+                </div>
+            </div> -->
+            <!-- <div class="out-body">
+                <div class="name">
+                    仙仙回复孙甜甜
+                </div>
+                <div class="text">
+                    热烈祝贺2020东京奥运会圆满结束
+                </div>
+                <div class="time">
+                    2021/8/22 下午5:32:58
+                    <span class="out-reply">回复</span>
+                    <button class="del">删除</button>
+                </div>
+            </div>     -->
+        </div>
+    </div>
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/message.js"></script>
+</body>
+</html>

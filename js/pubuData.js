@@ -1,0 +1,23 @@
+var picture =[
+            {
+                image:'./images/game1.jpg'
+            },
+            {
+                image:'./images/game2.jpg'
+            },
+            {
+                image:'./images/game3.jpg'
+            },
+            {
+                image:'./images/game11.jpg'
+            },
+            {
+                image:'./images/game7.jpg'
+            },
+            {
+                image:'./images/game9.jpg'
+            },
+            {
+                image:'./images/game8.jpg'
+            },
+        ]

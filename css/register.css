@@ -1,0 +1,96 @@
+body {
+  width: 100%;
+  background: #A6D2ED;
+  margin: 0;
+  border-top: 3px solid #F92B3B;
+}
+body main {
+  width: 100%;
+}
+body main #header {
+  width: 900px;
+  height: 144px;
+  padding: 10px 0 10px 0;
+  margin: 0 auto;
+  background: url(../images/bg_reg_wave.png);
+}
+body main #header .header-img {
+  width: 200px;
+  height: 72px;
+  margin: 0 auto;
+  margin-top: 26px;
+}
+body main #body {
+  width: 900px;
+  height: 355px;
+  border-radius: 10px;
+  margin: 0 auto;
+  background: #fff;
+}
+body main #body .body-header {
+  padding: 24px 0 22px 40px;
+}
+body main #body .body-header span {
+  font-size: 33px;
+  color: #000;
+}
+body main #body .body-center {
+  width: 500px;
+  height: 450px;
+  float: left;
+  margin-left: 100px;
+}
+body main #body .body-center .login-1-phone:nth-child(1) {
+  margin-left: 13px;
+}
+body main #body .body-center .login-get,
+body main #body .body-center .login-1-phone {
+  width: 500px;
+  height: 40px;
+  margin: 0;
+  margin-top: 20px;
+}
+body main #body .body-center .login-get span,
+body main #body .body-center .login-1-phone span {
+  float: left;
+  margin-top: 10px;
+  color: #000;
+}
+body main #body .body-center .login-get .phone-float,
+body main #body .body-center .login-1-phone .phone-float {
+  width: 250px;
+  height: 32px;
+  float: left;
+  border: 1px solid #ccc;
+}
+body main #body .body-center .login-get .phone-float input,
+body main #body .body-center .login-1-phone .phone-float input {
+  width: 200px;
+  height: 30px;
+}
+body main #body .body-center .login-get .phone-float .tip,
+body main #body .body-center .login-1-phone .phone-float .tip {
+  font-size: 12px;
+}
+body main #body .body-center .login-get {
+  margin-left: 13px;
+}
+body main #body .body-center .login-get button {
+  height: 32px;
+  font-size: 13px;
+}
+body main #body .body-center .login-get input {
+  width: 165px;
+  height: 28px;
+  border: 1px solid #ccc;
+}
+body main #body .body-center .login-but {
+  width: 250px;
+  height: 38px;
+  margin: 20px 0 0 60px;
+}
+body main #body .body-center .login-but button {
+  width: 250px;
+  height: 38px;
+  background: #FFA00A;
+}

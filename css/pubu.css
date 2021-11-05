@@ -1,0 +1,21 @@
+main {
+  width: 1280px;
+  position: absolute;
+  margin-top: 48px;
+  column-count: 4;
+  column-width: 300px;
+}
+main .box {
+  padding: 15px 0 0 15px;
+  float: left;
+}
+main .box .pic {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ccc;
+}
+main .box .pic img {
+  width: 300px;
+  height: auto;
+}
